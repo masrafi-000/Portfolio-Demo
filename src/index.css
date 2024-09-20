@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply text-lg text-white font-medium leading-none bg-secondary py-[21px] px-[39px] border border-white  outline outline-secondary outline-[5px] inline-block;
+  }
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vollkorn", serif;
+}
